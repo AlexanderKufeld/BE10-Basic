@@ -10,6 +10,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Tatjana Kufeld\Desktop\HomeWorks\BE10-Basic\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1d7tH21MTAli6CXN0aLOnULv28t" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,5 +49,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="178" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591787968563" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1591788756634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591788756634" />
   </component>
 </project>
