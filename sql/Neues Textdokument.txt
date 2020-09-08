@@ -1,0 +1,36 @@
+ 1	How many candidates we have?
+
+         select count(*) from candidate;
+
+    2   How many vacancies we have?
+
+          select count(*) from vacancy;
+
+    3   Home many vacancies without a candidate we have?
+
+          select count(vacancy_id) from candidate_vacancy
+          where candidate_id is null;
+
+    4   How may candidate without vacancies we have?
+
+         select count(distinct candidate_id) as candidate_without_vacancies from candidate_vacancy
+         where vacancy_id is null;
+
+    5   List all full stack (backend, frontend) engineers (first name, last name, vacancy title)
+
+         select first_name,last_name, vacancy from candidate
+         where vacancy='full_stack_engineer';
+
+
+    6   List how many candidates each vacancy has (hint: see sql group by, count)
+
+         select candidate_id ,count(*) as vacancy from candidate_vacancy
+         where vacancy_id and candidate_id is not null
+         group by candidate_id;
+
+
+    7   List to how many vacancies each engineer applied to
+
+         select vacancy_id ,count(*) as candidate from candidate_vacancy
+         where vacancy_id and candidate_id is not null
+         group by vacancy_id;
